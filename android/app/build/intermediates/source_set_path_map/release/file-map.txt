@@ -1,0 +1,16 @@
+com.example.ecommerce_app-core-1.6.0-0 C:\Users\Win 10\.gradle\caches\transforms-3\284a410c767ad6c7a2b0ffc8d8d85981\transformed\core-1.6.0\res
+com.example.ecommerce_app-jetified-window-java-1.0.0-beta04-1 C:\Users\Win 10\.gradle\caches\transforms-3\2a215381204751055df81b6269e717b7\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.ecommerce_app-jetified-annotation-experimental-1.1.0-2 C:\Users\Win 10\.gradle\caches\transforms-3\3d2f03fc996c2e0aa3dee5cfa3002cd1\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.ecommerce_app-jetified-play-services-basement-18.3.0-3 C:\Users\Win 10\.gradle\caches\transforms-3\a43f60338762a20514d953a92576aa3e\transformed\jetified-play-services-basement-18.3.0\res
+com.example.ecommerce_app-jetified-firebase-common-21.0.0-4 C:\Users\Win 10\.gradle\caches\transforms-3\bb5dd83b2d2d046e8c4935e384b62dda\transformed\jetified-firebase-common-21.0.0\res
+com.example.ecommerce_app-jetified-window-1.0.0-beta04-5 C:\Users\Win 10\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\res
+com.example.ecommerce_app-packaged_res-6 C:\Users\Win 10\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.5.0\android\build\intermediates\packaged_res\release
+com.example.ecommerce_app-RES-7 E:\projectFlutter\ecommerce_app\android\app\build\RES\processReleaseGoogleServices
+com.example.ecommerce_app-pngs-8 E:\projectFlutter\ecommerce_app\android\app\build\generated\res\pngs\release
+com.example.ecommerce_app-resValues-9 E:\projectFlutter\ecommerce_app\android\app\build\generated\res\resValues\release
+com.example.ecommerce_app-rs-10 E:\projectFlutter\ecommerce_app\android\app\build\generated\res\rs\release
+com.example.ecommerce_app-mergeReleaseResources-11 E:\projectFlutter\ecommerce_app\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.ecommerce_app-mergeReleaseResources-12 E:\projectFlutter\ecommerce_app\android\app\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.ecommerce_app-merged_res-13 E:\projectFlutter\ecommerce_app\android\app\build\intermediates\merged_res\release
+com.example.ecommerce_app-main-14 E:\projectFlutter\ecommerce_app\android\app\src\main\res
+com.example.ecommerce_app-release-15 E:\projectFlutter\ecommerce_app\android\app\src\release\res

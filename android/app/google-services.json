@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "678117286553",
+    "project_id": "api-app-efcef",
+    "storage_bucket": "api-app-efcef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678117286553:android:80e3205ea1ac9406924e08",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnkGvnQnRFxAJKe8eEOqriKv8BsKZoxwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678117286553:android:5f4b215e2f38ac37924e08",
+        "android_client_info": {
+          "package_name": "com.example.new_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnkGvnQnRFxAJKe8eEOqriKv8BsKZoxwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

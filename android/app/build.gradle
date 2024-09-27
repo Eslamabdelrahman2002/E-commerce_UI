@@ -1,0 +1,65 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"  // Firebase services plugin
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader("UTF-8") { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty("flutter.versionCode", "1")  // Set default value if null
+def flutterVersionName = localProperties.getProperty("flutter.versionName", "1.0")  // Set default value if null
+
+android {
+    namespace = "com.example.ecommerce_app"
+    compileSdkVersion 34  // Set to your desired compile SDK version
+    ndkVersion "21.4.7075529"  // Example NDK version, replace with your desired version
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.example.ecommerce_app"
+        minSdkVersion 23 // Updated to 23
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"  // Ensure compatibility with Java 8
+    }
+
+    buildTypes {
+        release {
+            // Add your own signing config for the release build if necessary
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    // Ensure you use the same Kotlin version
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8") {
+        exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
+    }
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+    // Make sure this matches the version above
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.20" // Include if used
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.20"
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application'

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3">
+    <dataSet config=":firebase_core"
+        ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~">
+        <source
+            path="C:\Users\Win 10\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.5.0\android\build\intermediates\library_assets\debug\out" />
+    </dataSet>
+    <dataSet config="main"
+        ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~">
+        <source path="E:\projectFlutter\ecommerce_app\android\app\src\main\assets" />
+        <source
+            path="E:\projectFlutter\ecommerce_app\android\app\build\intermediates\shader_assets\debug\out" />
+    </dataSet>
+    <dataSet config="debug"
+        ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~">
+        <source path="E:\projectFlutter\ecommerce_app\android\app\src\debug\assets" />
+    </dataSet>
+</merger>
