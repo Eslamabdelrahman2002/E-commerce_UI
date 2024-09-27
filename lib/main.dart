@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/pages/auth_screen(.dart';
 import 'package:ecommerce_app/pages/cart_page.dart';
 import 'package:ecommerce_app/pages/intro_page.dart';
 import 'package:ecommerce_app/pages/shop_page.dart';
@@ -11,14 +12,21 @@ import 'models/shop.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } on FirebaseException catch (e) {
+    if (e.code != 'duplicate-app') {
+      rethrow;
+    }
+  }
+
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => Shop()), // Add Shop provider here
-        // Other providers can be added here as well
+        ChangeNotifierProvider(create: (_) => Shop()),
       ],
       child: const MyApp(),
     ),
@@ -30,16 +38,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final themeProvider = Provider.of<ThemeProvider>(context);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: lightMode,
-      // theme: themeProvider.themeData,
-      home: IntroPage(),
+      home: AuthScreen(),
       routes: {
         '/intro_page': (context) => const IntroPage(),
         '/shop_page': (context) => const ShopPage(),
-        '/cart_page': (context) => const CartPage()
+        '/cart_page': (context) => const CartPage(),
       },
     );
   }

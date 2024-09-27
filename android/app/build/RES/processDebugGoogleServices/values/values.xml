@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">476756840684</string>
+    <string name="google_api_key" translatable="false">AIzaSyC4rBvq_M0UlPDvkSlz6dWNlAyMwwHHx-c</string>
+    <string name="google_app_id" translatable="false">1:476756840684:android:40ee5b88335cbc55e315c9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC4rBvq_M0UlPDvkSlz6dWNlAyMwwHHx-c</string>
+    <string name="google_storage_bucket" translatable="false">coherent-mesh-436118-h3.appspot.com</string>
+    <string name="project_id" translatable="false">coherent-mesh-436118-h3</string>
+</resources>
